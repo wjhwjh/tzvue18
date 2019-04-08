@@ -48,7 +48,7 @@
         </div>
       </a>
 
-      <a href="#" class="link">
+      <a :tel="13681472643" class="link">
         <div class="cont-item">
           <i class="icon iconfont icon-lianxiwomen"></i>
           电话联系
