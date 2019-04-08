@@ -21,7 +21,7 @@ Vue.component('headNav',headNav)
 // 插件
 // 数据请求
 Vue.prototype.$ajax = Axios
-Axios.defaults.baseURL = 'http://tanzhouweb.com/vueProject/'
+Axios.defaults.baseURL = '请求数据的网址'
 Vue.prototype.dataURL = function (file, title, id) {
   id = (id === undefined)?'':id;
   return file + '?title=' + title +id
